@@ -9,6 +9,8 @@ package model;
  *
  * @author maykaoo
  */
+ 
+ ta tranquilo ta favoravel
 public class Cartao {
 
     private String tipo;
