@@ -26,6 +26,7 @@ public class Cartao {
         this.tipo = tipo;
         this.numero = numero;
     }
+    
 
     /**
      * Retorna o tipo do cartão
