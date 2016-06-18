@@ -27,6 +27,7 @@ public class ControleCompra {
         String tamanho = Console.entradaString("Informe o tamanho:");
         int quantidade = Console.entradaInt("Informe a quantidade: ");
 
+
         pedido.setIdPedido(id);
         pedido.setTamanho(tamanho);
         return pedido;
