@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author San
+ * @author maykaoo
  */
 public class Cliente {
 
@@ -46,6 +46,16 @@ public class Cliente {
         return nome;
     }
 
+    /**
+     * seta o nome do cliente
+     * 
+     * @param nome nome do cliente
+     */
+    
+     public void setNome(String nome) {
+        this.nome = nome;
+     }
+     
     /**
      * retorna o endereço do cliente
      *
