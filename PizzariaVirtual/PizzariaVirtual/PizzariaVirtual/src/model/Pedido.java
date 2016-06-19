@@ -15,26 +15,56 @@ public class Pedido {
     private String tamanho;
     private int quantidade;
 
+    /**
+     * retorna o id da pizza pedida
+     *
+     * @return id da pizza do dia
+     */
     public int getIdPedido() {
         return idPedido;
     }
 
+    /**
+     * seta o id da pizza pedida
+     *
+     * @param idPedido
+     */
     public void setIdPedido(int idPedido) {
         this.idPedido = idPedido;
     }
 
+    /**
+     * retorna o tamanho da pizza pedida
+     *
+     * @return tamanho da pizza pedida
+     */
     public String getTamanho() {
         return tamanho;
     }
 
+    /**
+     * seta o tamanho da pizza pedida
+     *
+     * @param tamanho tamanho da pizza pedida
+     */
     public void setTamanho(String tamanho) {
         this.tamanho = tamanho;
     }
 
+    /**
+     * seta a quantidade de pizzas pedidas
+     *
+     * @return quantidade de pizzas pedidas
+     */
     public int getQuantidade() {
         return quantidade;
     }
 
+    /**
+     * seta a quantidade de pizzas pedidas
+     *
+     * @param quantidade quantidade de pizzas pedidas
+     */
     public void setQuantidade(int quantidade) {
         this.quantidade = quantidade;
     }
