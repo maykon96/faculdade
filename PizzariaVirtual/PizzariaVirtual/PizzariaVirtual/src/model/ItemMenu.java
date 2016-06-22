@@ -12,9 +12,7 @@ package model;
 public class ItemMenu {
     
     private Pizza pizza = new Pizza();
-    private double precoPequena=0;
-    private double precoMedia=0;
-    private double precoGrande=0;
+    private double preco=0;
 
     /**
      * retorna uma pizza que será apresentada
