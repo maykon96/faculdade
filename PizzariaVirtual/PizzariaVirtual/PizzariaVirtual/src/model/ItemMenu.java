@@ -13,6 +13,7 @@ public class ItemMenu {
     
     private Pizza pizza = new Pizza();
     private double preco=0;
+    private String tamanho;
 
     /**
      * retorna uma pizza que será apresentada
