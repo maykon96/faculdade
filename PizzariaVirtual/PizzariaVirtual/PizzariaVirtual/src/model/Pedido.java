@@ -13,6 +13,8 @@ public class Pedido {
 
     private int idPedido;
     private ArryaList<ItemMenu> pedidos = new ArrayList<>();
+    private Calendar horaPedido;
+    
     /**
      * retorna o id da pizza pedida
      *
