@@ -12,9 +12,7 @@ package model;
 public class Pedido {
 
     private int idPedido;
-    private String tamanho;
-    private int quantidade;
-
+    private ArryaList<ItemMenu> pedidos = new ArrayList<>();
     /**
      * retorna o id da pizza pedida
      *
