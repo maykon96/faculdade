@@ -15,7 +15,6 @@ public class Pizza {
 
     private String nome;
     private String ingredientes;
-    private int quantidadeMes = 0;
 
     /**
      * retorna o nome do cliente
