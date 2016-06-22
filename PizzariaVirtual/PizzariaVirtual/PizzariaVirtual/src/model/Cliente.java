@@ -18,7 +18,7 @@ public class Cliente {
     private String numeroTelefone;
     private String cpf;
     private ArrayList<Cartao> cartoes = new ArrayList();
-    private ArrayList<ItemMenu> pedidos = new ArrayList();
+    private Pedido pedido = new Pedido();
 
     /**
      * Construtor da classe
